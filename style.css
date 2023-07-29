@@ -41,6 +41,12 @@ a, .secondary-text {
     background-color: #E5E7EB;
 }
 
+.text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
 .cta .container, button{
     background-color: #3882F6;
 }
