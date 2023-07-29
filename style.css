@@ -4,14 +4,39 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 a, .secondary-text {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
 }
 
+button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
 .header, .footer {
     background-color: #1F2937;
+}
+
+.header {
+    flex: 4;
+    padding: 16px 200px 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -21,6 +46,21 @@ a, .secondary-text {
 
 .header-links {
     list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.content {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 84px;
+}
+
+.hero {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
 }
 
 .main-text {
@@ -29,8 +69,19 @@ a, .secondary-text {
     color: #F9FAF8;
 }
 
-.body {
+.signup {
+    align-self: flex-start;
+}
 
+.placeholder {
+    text-align: center;
+    flex-basis: 600px;
+    background-color: #aeafaf;
+    padding: 100px;
+}
+
+.body {
+    flex: 3;
 }
 
 .info {
@@ -40,6 +91,7 @@ a, .secondary-text {
 }
 
 .quote {
+    flex: 3;
     background-color: #E5E7EB;
 }
 
@@ -53,6 +105,10 @@ a, .secondary-text {
     background-color: #3882F6;
 }
 
-.footer {
+.cta {
+    flex: 2;
+}
 
+.footer {
+    flex: 1;
 }
