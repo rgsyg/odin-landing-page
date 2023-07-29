@@ -26,9 +26,12 @@ button {
     background-color: #1F2937;
 }
 
+.header, .body, .quote, .cta, .footer {
+    padding: 16px 200px 100px 200px;
+}
+
 .header {
     flex: 4;
-    padding: 16px 200px 100px 200px;
     display: flex;
     flex-direction: column;
 }
@@ -59,7 +62,7 @@ button {
 
 .hero {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     gap: 12px;
 }
 
