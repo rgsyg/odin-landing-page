@@ -27,11 +27,11 @@ button {
 }
 
 .header, .body, .quote, .cta, .footer {
-    padding: 16px 200px 100px 200px;
+    padding: 16px 200px 0 200px;
+    height: 450px;
 }
 
 .header {
-    flex: 4;
     display: flex;
     flex-direction: column;
 }
@@ -84,7 +84,6 @@ button {
 }
 
 .body {
-    flex: 3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,8 +118,10 @@ button {
 }
 
 .quote {
-    flex: 3;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .text {
@@ -129,14 +130,15 @@ button {
     color: #1F2937;
 }
 
+.author {
+}
+
+.cta {
+}
+
 .cta .container, button{
     background-color: #3882F6;
 }
 
-.cta {
-    flex: 2;
-}
-
 .footer {
-    flex: 1;
 }
