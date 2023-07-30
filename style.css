@@ -20,6 +20,7 @@ button {
     font-weight: bold;
     padding: 8px 32px;
     border-radius: 8px;
+    color: #F9FAF8;
 }
 
 .header, .footer {
@@ -79,8 +80,9 @@ button {
 .placeholder {
     text-align: center;
     flex-basis: 600px;
-    background-color: #aeafaf;
+    background-color: #858588;
     padding: 100px;
+    color: #F9FAF8;
 }
 
 .body {
@@ -99,7 +101,8 @@ button {
 
 .containers {
     display: flex;
-    gap: 8px;
+    justify-content: space-around;
+    width: 90%;
 }
 
 .container {
@@ -117,11 +120,18 @@ button {
     margin-bottom: 8px;
 }
 
+.container p {
+    width: 150px;
+    color: #1F2937;
+}
+
 .quote {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    justify-content: center;
+    padding: 16px 275px 0 275px;
 }
 
 .text {
@@ -131,6 +141,10 @@ button {
 }
 
 .author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .cta {
