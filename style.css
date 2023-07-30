@@ -27,7 +27,7 @@ header, footer {
     background-color: #1F2937;
 }
 
-header, .body, .quote, footer {
+header, .body, footer {
     padding: 16px 200px 100px 200px;
 }
 
@@ -140,12 +140,11 @@ header {
 
 /* #region Quote */
 .quote {
+    padding: 100px 200px;
     background-color: #E5E7EB;
-    padding: 0 275px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
 }
 
 blockquote {
