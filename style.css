@@ -182,13 +182,16 @@ blockquote {
     padding: 0;
 }
 
+.cta-info h1, .cta-info p {
+    color: #E5E7EB;
+}
+
 .cta-info h1 {
     font-size: 24px;
 }
 
 .cta-info p {
     text-align: left;
-    color: #E5E7EB;
     font-size: 16px;
 }
 
