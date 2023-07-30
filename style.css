@@ -1,7 +1,6 @@
+/* #region Defaults */
 * {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -28,10 +27,11 @@ header, footer {
     background-color: #1F2937;
 }
 
-header, .body, .quote, .cta, footer {
-    padding: 16px 200px 0 200px;
-    height: 450px;
+header, .body, .quote, footer {
+    padding: 16px 200px 100px 200px;
 }
+
+/* #endregion */
 
 /* #region Header*/
 header {
@@ -60,6 +60,7 @@ header {
     display: flex;
     gap: 50px;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 84px;
 }
 
@@ -67,6 +68,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    flex: 2;
 }
 
 .header-main h1, .header-main p {
@@ -78,16 +80,15 @@ header {
     font-weight: bolder;
 }
 
-
 .header-main button {
     align-self: flex-start;
 }
 
-picture {
+.header-main picture {
+    flex: 1;
     text-align: center;
-    flex-basis: 600px;
     background-color: #858588;
-    padding: 100px;
+    padding: 100px 150px;
     color: #F9FAF8;
 }
 /* #endregion */
@@ -141,6 +142,7 @@ picture {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 300px;
 }
 
 blockquote {
@@ -161,6 +163,7 @@ blockquote {
 
 /* #region CTA */
 .cta {
+    padding: 16px 200px 0 200px;
     height: 300px;
     display: flex;
     flex-direction: column;
